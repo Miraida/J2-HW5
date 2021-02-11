@@ -15,7 +15,7 @@ public class Main  {
         printList(listC);
 
         System.out.println("----------After sort---------");
-        Collections.sort(listC,new Comparators().COMP);
+        Collections.sort(listC,new Comparators());
         printList(listC);
                   // other  option
                  //        Collections.sort(listC, new Comparator<String>() {
